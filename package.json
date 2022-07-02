@@ -1,0 +1,47 @@
+{
+  "name": "partplanner",
+  "version": "0.0.1",
+  "description": "A PC part management dashboard for builders",
+  "productName": "PartPlanner",
+  "author": "Tasman Bruce <tasmanbrucework@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@supabase/supabase-js": "^1.28.5",
+    "@vueauth/supabase": "^1.0.0-alpha.20",
+    "@vuemodel/supabase": "^0.0.5",
+    "@vuex-orm/core": "^0.36.4",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "@quasar/quasar-app-extension-dotenv": "^1.1.0",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "@vueauth/quasar-app-extension-auth": "^1.0.0-alpha.29",
+    "@vuemodel/quasar-app-extension-supabase": "^0.0.11",
+    "autoprefixer": "^10.4.2",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.10.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "quasar-app-extension-vuex-orm": "^0.0.8",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
