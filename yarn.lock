@@ -499,7 +499,7 @@
 
 "@vueauth/quasar-ui-auth@^1.0.0-alpha.29":
   version "1.0.0-alpha.29"
-  resolved "https://registry.npmjs.org/@vueauth/quasar-ui-auth/-/quasar-ui-auth-1.0.0-alpha.29.tgz"
+  resolved "https://registry.yarnpkg.com/@vueauth/quasar-ui-auth/-/quasar-ui-auth-1.0.0-alpha.29.tgz#4981805575e3c8b5249913dc45ef8f98bbd9b49a"
   integrity sha512-Z2eAuY3amUrFGBfrSmyElHikkbEyXXHrrlYr3N2UR4+/aiiIiSp1hVWDSGKopXJRxfib5ASqIudaPYsbXAf36A==
   dependencies:
     "@vueauth/core" "^1.0.0-alpha.40"

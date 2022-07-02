@@ -15,6 +15,7 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "@supabase/supabase-js": "^1.28.5",
+    "@vueauth/quasar-ui-auth": "^1.0.0-alpha.29",
     "@vueauth/supabase": "^1.0.0-alpha.20",
     "@vuemodel/supabase": "^0.0.5",
     "@vuex-orm/core": "^0.36.4",
