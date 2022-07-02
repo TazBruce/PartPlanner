@@ -28,6 +28,6 @@ jobs:
     - run: quasar build
     
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4
+    - uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: dist\spa
