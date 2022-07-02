@@ -18,16 +18,16 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Build
-    - uses: actions/checkout@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
-    - run: yarn global add @quasar/cli
-    - run: yarn
-    - run: quasar build
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Build  
+      run: |
+       yarn global add @quasar/cli
+       yarn
+       quasar build
     
     - name: Deploy
-    - uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: dist\spa
