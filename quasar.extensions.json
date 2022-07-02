@@ -5,6 +5,5 @@
       "packageName": "@vueauth/supabase"
     }
   },
-  "vuex-orm": {},
   "@vuemodel/supabase": {}
 }

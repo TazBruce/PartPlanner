@@ -39,7 +39,6 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^8.5.0",
-    "quasar-app-extension-vuex-orm": "^0.0.8",
     "typescript": "^4.5.4"
   },
   "engines": {
