@@ -1,0 +1,15 @@
+# for local development
+version: '3.7'
+services:
+  quasar:
+    build:
+      context: .
+      target: 'develop-stage'
+    ports:
+      - '9000:9000'
+      - "3000:3000"
+    volumes:
+      - '.:/app'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: /bin/sh -c "yarn && quasar dev"

@@ -50,6 +50,7 @@ const {
     />
 
     <q-dialog
+      v-if="registered"
       :model-value="registered"
       persistent
     >
