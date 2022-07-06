@@ -60,6 +60,9 @@ rather from an inventory management perspective, we could meet an unfilled gap i
     * A build requires the user to have the selected parts in inventory to be finalised.
   * Parts can be added to the build from the user’s inventory
 
+## Design
+[Figma](https://www.figma.com/file/sHO140XGrCqE0GH5w90xDV/PartPlanner?node-id=0%3A1)
+
 ## Development
 
 ### Install the dependencies
