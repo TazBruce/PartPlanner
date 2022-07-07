@@ -21,7 +21,7 @@
           icon="person"
           round
         >
-          <AuthAccountMenu/>
+          <AuthAccountMenu />
         </q-btn>
       </q-toolbar>
     </q-header>
@@ -39,7 +39,7 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view/>
+      <router-view />
     </q-page-container>
   </q-layout>
 </template>

@@ -11,7 +11,7 @@ import PasswordResetRequestCard from 'src/auth/components/PasswordResetRequestCa
       <h5 class="q-mb-md">
         Password Reset
       </h5>
-      <PasswordResetRequestCard/>
+      <PasswordResetRequestCard />
       <q-btn
         :to="{ name: 'auth.login' }"
         class="full-width q-mt-md"

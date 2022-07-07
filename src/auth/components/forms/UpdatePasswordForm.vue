@@ -40,7 +40,7 @@ const emit = defineEmits([
 
 <template>
   <q-form>
-    <slot name="top"/>
+    <slot name="top" />
     <q-input
       v-if="typeof email === 'string'"
       :error="!!validationErrors?.['email']"
@@ -88,6 +88,6 @@ const emit = defineEmits([
       type="password"
       @update:model-value="value => emit('update:passwordConfirmation', value)"
     />
-    <slot name="bottom"/>
+    <slot name="bottom" />
   </q-form>
 </template>

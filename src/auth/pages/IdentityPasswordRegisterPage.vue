@@ -11,7 +11,7 @@ import AuthRegisterCard from 'src/auth/components/RegisterCard.vue'</script>
       <h5 class="q-mb-md">
         Register
       </h5>
-      <AuthRegisterCard/>
+      <AuthRegisterCard />
     </div>
   </div>
   <div

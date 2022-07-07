@@ -74,7 +74,7 @@ if (requiresReauthentication !== undefined) {
 
         <!-- Errors -->
         <div v-if="!hasValidationErrors">
-          <AuthErrorsBanner :errors="errors"/>
+          <AuthErrorsBanner :errors="errors" />
         </div>
       </q-card-section>
 

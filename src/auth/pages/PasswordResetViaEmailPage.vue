@@ -11,7 +11,7 @@ import PasswordResetCard from 'src/auth/components/PasswordResetCard.vue'</scrip
       <h5 class="q-mb-md">
         Password Reset
       </h5>
-      <PasswordResetCard/>
+      <PasswordResetCard />
     </div>
   </div>
 </template>

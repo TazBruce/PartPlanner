@@ -11,7 +11,7 @@ import AuthLoginCard from 'src/auth/components/LoginCard.vue'</script>
       <h5 class="q-mb-md">
         Sign In
       </h5>
-      <AuthLoginCard/>
+      <AuthLoginCard />
       <q-btn
         :to="{ name: 'auth.requestPasswordReset' }"
         class="full-width q-mt-md"

@@ -47,7 +47,7 @@ async function onRequestResetClicked () {
 
       <!-- Errors -->
       <div v-if="!hasValidationErrors">
-        <ErrorsBanner :errors="errors"/>
+        <ErrorsBanner :errors="errors" />
       </div>
     </q-card-section>
 

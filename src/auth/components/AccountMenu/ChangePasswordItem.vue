@@ -8,7 +8,7 @@
     v-bind="$attrs"
   >
     <q-item-section side>
-      <q-icon name="key"/>
+      <q-icon name="key" />
     </q-item-section>
     <q-item-section>
       Change Password

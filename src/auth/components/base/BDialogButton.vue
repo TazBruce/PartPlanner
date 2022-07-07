@@ -43,7 +43,7 @@ const showDialog = ref(false)
         />
       </q-toolbar>
       <q-card>
-        <slot name="default"/>
+        <slot name="default" />
       </q-card>
     </q-dialog>
   </q-btn>

@@ -34,7 +34,7 @@ const {
         v-if="!hasValidationErrors"
         class="q-mb-sm"
       >
-        <AuthErrorsBanner :errors="errors"/>
+        <AuthErrorsBanner :errors="errors" />
       </div>
     </q-card-section>
 

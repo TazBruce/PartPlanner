@@ -10,9 +10,9 @@ const showUpdatePasswordDialog = ref(false)
 <template>
   <q-menu auto-close>
     <q-list>
-      <AuthLogoutItem/>
-      <AuthChangePasswordItem @click="showUpdatePasswordDialog = true"/>
+      <AuthLogoutItem />
+      <AuthChangePasswordItem @click="showUpdatePasswordDialog = true" />
     </q-list>
   </q-menu>
-  <AuthUpdatePasswordDialog v-model="showUpdatePasswordDialog"/>
+  <AuthUpdatePasswordDialog v-model="showUpdatePasswordDialog" />
 </template>
